@@ -1,0 +1,30 @@
+.navigation__nav-link {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.6;
+  text-align: center;
+  height: fit-content;
+  text-wrap: none;
+  width: fit-content;
+}
+
+.navigation__nav-link__active {
+  opacity: 1;
+  border: none;
+  border-style: none;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.navigation__main {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+  column-gap: 15px;
+  /*width: 100%;*/
+  width: fit-content;
+  padding-right: 10%;
+}

@@ -1,0 +1,42 @@
+/*using this as the styling for a 'container' for all the modals- each modal has the background page and then the box where individual modals are 'hosted'*/
+.modal {
+  background: #00000080;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 110%;
+  position: fixed;
+  flex-direction: column;
+  transition:
+    opacity 0.5s,
+    z-index 0.5s 0s;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.modal__box {
+  /*width: 436px;*/
+  width: 430px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
+  border-style: none;
+  border-width: 0;
+  border-color: black;
+  border-radius: 16px;
+  transition: visibility 0.4s;
+}
+
+@media screen and (width < 440px) {
+  .modal {
+  }
+  .modal__box {
+    width: 90%;
+  }
+}

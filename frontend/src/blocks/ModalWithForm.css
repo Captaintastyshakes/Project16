@@ -1,0 +1,113 @@
+.modalWithForm__main {
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+}
+
+.modalWithForm__button {
+  opacity: 100%;
+  transition: opacity, 0.7s;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.modalWithForm__button:hover {
+  opacity: 60%;
+}
+.modalWithForm__button_type_close {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  right: 16px;
+  top: 25px;
+  z-index: 1;
+  align-self: end;
+  border: none;
+  border-width: 0;
+  border-style: solid;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  opacity: 100%;
+  transition: opacity, 0.7s;
+}
+.modalWithForm__button_type_submit {
+  color: white;
+  background: rgba(47, 113, 229, 1);
+  width: 360px;
+  height: 66px;
+  border-radius: 100px;
+  border-width: 0;
+  border-color: black;
+  border-style: solid;
+  /*height: 36px;
+  width: 60px;*/
+  opacity: 100%;
+  transition: opacity 0.5s;
+  cursor: pointer;
+  padding: 0;
+  align-self: flex-start;
+}
+.modalWithForm__button_type_switch-forms {
+  /*margin-left: 20px;*/
+  color: cornflowerblue;
+}
+.modalWithForm__form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  row-gap: 15px;
+  width: 90%;
+}
+.modalWithForm__form_type_sign-up {
+}
+.modalWithForm__form_type_sign-in {
+}
+.modalWithForm__submit-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+.modalWithForm__close-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.modalWithForm__title {
+  text-align: start;
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.modalWithForm__label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 8px;
+  color: rgba(47, 113, 229, 1);
+  background: none;
+  background-color: transparent;
+}
+
+.modalWithForm__input {
+  color: black;
+  border-width: 1px;
+  border-color: black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 90%;
+}
+
+.modalWithForm__switch-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-self: baseline;
+  justify-content: right;
+  align-self: center;
+  /*padding-left: 10px;*/
+}

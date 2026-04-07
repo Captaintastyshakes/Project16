@@ -1,0 +1,31 @@
+.loginModal__main {
+  justify-items: center;
+}
+.loginModal__form-label {
+  background: none;
+  background-color: white;
+}
+.loginModal__form-label_type_email {
+}
+.loginModal__form-label_type_password {
+}
+.loginModal__input {
+  background: none;
+  background-color: unset !important;
+  border: none;
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  color: black;
+}
+
+/*.loginModal__input:-webkit-autofill,
+.loginModal__input:-webkit-autofill:hover,
+.loginModal__input:-webkit-autofill:focus,
+.loginModal__input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}*/
+.loginModal__input_type_email {
+}
+.loginModal__input_type_password {
+}

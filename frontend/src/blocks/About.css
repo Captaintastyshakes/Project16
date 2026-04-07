@@ -1,0 +1,34 @@
+.about__main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 15px;
+  margin-top: 5%;
+}
+.about__sub-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+.about__profile-picture {
+  max-width: 464px;
+  max-height: 464px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.about__title {
+}
+.about__text-sub-wrapper {
+}
+.about__text-content {
+}
+
+@media screen and (width <= 381px) {
+  .about__main {
+    flex-direction: column;
+  }
+}

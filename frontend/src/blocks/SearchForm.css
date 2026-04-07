@@ -1,0 +1,100 @@
+.searchForm__main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.searchForm__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  left: 8%;
+}
+.searchForm__input-label {
+  width: 608px;
+  height: 64px;
+  opacity: 1;
+  border-width: 1px;
+  border-radius: 100px;
+}
+
+.searchForm__input {
+  width: 90%;
+  height: 64px;
+  opacity: 1;
+  border-width: 0;
+  border-radius: 100px;
+  border: none;
+  text-indent: 20px;
+}
+
+.searchForm__input::placeholder {
+  text-indent: 20px;
+}
+
+.searchForm__submit-button {
+  width: 168px;
+  height: 66px;
+  border-radius: 100px;
+  background-color: rgba(47, 113, 229, 1);
+  border: none;
+  position: relative;
+  right: 20%;
+  color: white;
+  transition: background-color 0.4s;
+}
+
+.searchForm__submit-button:hover {
+  background-color: rgba(52, 126, 255, 1);
+}
+
+.searchForm__submit-button:active {
+  background-color: rgba(47, 113, 229, 1);
+}
+
+@media screen and (width < 945px) {
+  .searchForm__form {
+    /*width: 60%;*/
+  }
+}
+
+@media screen and (width < 775px) {
+  .searchForm__form {
+    flex-direction: column;
+    left: 0;
+    width: 25%;
+    min-width: 100px;
+  }
+  .searchForm__input {
+    width: 100%;
+  }
+  .searchForm__input-label {
+    max-width: 168px;
+    width: 100%;
+  }
+  .searchForm__submit-button {
+    right: 0;
+    width: 100%;
+  }
+
+  .searchForm__main {
+  }
+}
+
+/*@media screen and (width < 440px) {
+  .searchForm__form {
+    flex-direction: column;
+    left: 0;
+    width: 25%;
+  }
+  .searchForm__input {
+    width: 100%;
+  }
+  .searchForm__input-label {
+    width: 168px;
+  }
+  .searchForm__submit-button {
+    right: 0;
+  }
+}*/
