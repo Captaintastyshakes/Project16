@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (width < 775px) {
+@media screen and (width < 805px) {
   .searchForm__form {
     flex-direction: column;
     left: 0;
@@ -79,6 +79,8 @@
   }
 
   .searchForm__main {
+    height: 150px;
+    column-gap: 10px;
   }
 }
 

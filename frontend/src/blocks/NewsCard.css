@@ -119,6 +119,7 @@
   }
 
   .newsCard__hyperlink_type_text {
+    text-wrap-mode: nowrap;
   }
 
   .newsCard__source {

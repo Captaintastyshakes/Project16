@@ -57,5 +57,19 @@
 }
 
 .header__title {
-  padding-left: 18px;
+  /*padding-left: 18px;*/
+  text-align: center;
+}
+@media screen and (width < 805px) {
+  .header__main {
+    flex-direction: column;
+    max-height: 120px;
+    max-height: none;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .header__sub-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
 }

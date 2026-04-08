@@ -28,3 +28,8 @@
   width: fit-content;
   padding-right: 10%;
 }
+@media screen and (width < 805px) {
+  .navigation__main {
+    padding-right: 0;
+  }
+}
