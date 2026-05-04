@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import linkedIn from "../assets/LinkedIn.svg";
 import github from "../assets/github.svg";
 

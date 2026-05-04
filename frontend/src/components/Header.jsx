@@ -1,7 +1,6 @@
 import Navigation from "./Navigation.jsx";
 import logout from "../assets/logout.svg";
 import logoutW from "../assets/logoutW.svg";
-import React from "react";
 
 export default function Header({
   LoggedIn,
@@ -10,9 +9,6 @@ export default function Header({
   user,
   viewingMain,
 }) {
-  React.useEffect(() => {
-    console.log(user);
-  }, [user]);
   return (
     <>
       <div
@@ -32,7 +28,6 @@ export default function Header({
               <img
                 alt="sign out glyph"
                 className="header__glyph"
-                //src={logout}
                 src={viewingMain ? logoutW : logout}
               />
             </button>

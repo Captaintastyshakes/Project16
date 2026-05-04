@@ -22,9 +22,7 @@
 .navigation__main {
   display: flex;
   flex-direction: row;
-  /*justify-content: space-between;*/
   column-gap: 15px;
-  /*width: 100%;*/
   width: fit-content;
   padding-right: 10%;
 }

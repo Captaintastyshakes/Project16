@@ -4,7 +4,6 @@ export default class BaseApi {
     this._options = {
       method: "",
       headers: {
-        //"Content-type": "application/json",
         authorization: null,
       },
       body: null,

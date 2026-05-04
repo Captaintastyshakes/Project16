@@ -1,7 +1,6 @@
 import SearchForm from "./SearchForm.jsx";
 import About from "./About.jsx";
 import NewsCardList from "./NewsCardList.jsx";
-import React from "react";
 import PreLoader from "./PreLoader.jsx";
 
 export default function Main({
@@ -11,11 +10,8 @@ export default function Main({
   searchToggle,
   loading,
   children,
-  loadMore,
   likeHandler,
 }) {
-  //console.log(data);
-
   return (
     <>
       <div className="main__main">
@@ -36,7 +32,6 @@ export default function Main({
         {searchToggle && (
           <NewsCardList
             data={Array.isArray(data) ? data[0] : data}
-            //data={data} // test with sub 3 article lists, switch back to above when done!
             isLoggedIn={isLoggedIn}
             auxilliaryData={Array.isArray(data) ? data[1] : data}
             isSavedNews={false}

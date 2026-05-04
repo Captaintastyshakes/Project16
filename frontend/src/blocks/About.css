@@ -20,10 +20,14 @@
   border-radius: 50%;
   object-fit: fill;
 }
-.about__title {
-}
+
 .about__text-sub-wrapper {
+  font-family: "Roboto";
 }
+.about__title {
+  font-family: "Roboto Slab";
+}
+
 .about__text-content {
 }
 

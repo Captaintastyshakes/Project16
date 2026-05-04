@@ -53,7 +53,7 @@ export default function LoginModal({
     <>
       {stateA ? (
         <div className="modal" onMouseDown={mouseDownPass}>
-          <div className="loginModal__main" /*onMouseDown={mouseDownPass}*/>
+          <div className="loginModal__main">
             <ModalWithForm
               content={formData}
               isLoading={isLoading}

@@ -8,14 +8,9 @@ export default function NewsCardList({
   isLoggedIn,
   auxilliaryData,
   isSavedNews,
-  loadMore,
   likeHandler,
 }) {
   const [showMoreState, setShowMoreState] = React.useState(false);
-  const [articleClusters, setArticleClusters] = React.useState([]);
-  const [loadMoreState, setLoadMoreState] = React.useState(false);
-  const [auxilliaryIndex, setAuxilliaryIndex] = React.useState(0);
-  const [auxilliarySelection, setAuxilliarySelection] = React.useState([]);
 
   const toggleShowMoreState = () => {
     setShowMoreState(true);
@@ -24,18 +19,6 @@ export default function NewsCardList({
   const handleShowMoreClick = () => {
     toggleShowMoreState();
   };
-
-  /*const removeCard = (cardUrl) => {
-    data.filter((datum) => {
-      return datum.url !== cardUrl;
-    });
-  };*/
-
-  //React.useEffect(() => {}, [data]);
-
-  //console.log(data);
-  //console.log(auxilliaryData);
-
   return (
     <>
       {!Array.isArray(data) ? (
@@ -54,7 +37,6 @@ export default function NewsCardList({
                     badge={datum.publishedAt}
                     viewingSavedNews={isSavedNews}
                     likeHandler={likeHandler}
-                    //removeHandler={removeCard}
                   />
                 );
               })}

@@ -1,5 +1,4 @@
 .newsCardList__main {
-  /*max-width: 25%;*/
   padding-left: 10px;
   display: flex;
   flex-direction: column;
@@ -7,6 +6,7 @@
   column-gap: 7px;
   align-content: center;
 }
+
 .newsCardList__grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,8 +15,7 @@
   row-gap: 7px;
   padding: 0;
 }
-.newsCardList__button {
-}
+
 .newsCardList__button_type_show-more {
   width: 150px;
   align-self: center;
@@ -36,12 +35,14 @@
   height: 374px;
 }
 
-.newsCardList__no-results-icon {
+/*.newsCardList__no-results-icon {
 }
 .newsCardList__no-results-title {
 }
 .newsCardList__no-results-description {
 }
+.newsCardList__button {
+}*/
 @media screen and (width < 1253px) {
   .newsCardList__grid-container {
     grid-template-columns: repeat(2, 1fr);

@@ -1,6 +1,4 @@
 .newsCard__main {
-  /*width: 325px;
-  max-height: 328px;*/
   height: 576px;
   width: 400px;
   display: flex;
@@ -14,12 +12,6 @@
   overflow: hidden;
   position: relative;
 }
-.newsCard__topic-box {
-}
-.newsCard__topic-box-wrapper {
-}
-.newsCard__hover-prompt {
-}
 
 .newsCard__hover-prompt-wrapper {
   position: absolute;
@@ -29,6 +21,7 @@
   top: 10px;
   border-radius: 5%;
 }
+
 .newsCard__action-button {
   background-color: white;
   position: relative;
@@ -41,18 +34,14 @@
   padding: 0;
   width: 32px;
 }
-.newsCard__action-button_type_remove {
-}
-.newsCard__action-button_type_save {
-}
+
 .newsCard__icon {
   width: 24px;
   height: 24px;
 }
+
 .newsCard__cover-image {
   object-fit: cover;
-  /*object-fit: contain;
-  object-fit: fill;*/
   height: 100%;
   width: 100%;
   cursor: pointer;
@@ -61,16 +50,14 @@
 .newsCard__textual-wrapper {
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;*/
   row-gap: 20px;
   height: 45%;
   width: 95%;
   position: relative;
   bottom: 5%;
 }
+
 .newsCard__hyperlink {
-  /*display: flex;
-  width: 100%;*/
   position: relative;
   height: 272px;
   justify-self: flex-start;
@@ -85,14 +72,12 @@
 .newsCard__date {
   color: rgba(182, 188, 191, 1);
 }
+
 .newsCard__title {
-  /*position: relative;*/
-  /*top: 40px;*/
   margin-top: 0;
   margin-bottom: 0;
   background-color: white;
   height: 24px;
-  /*width: 73px;*/
   text-align: center;
   font-family: "Cabinet Grotesk";
   font-weight: 700;
@@ -102,8 +87,7 @@
   border: none;
   text-decoration: none;
 }
-.newsCard__article {
-}
+
 .newsCard__source {
   color: rgba(182, 188, 191, 1);
 }
@@ -132,3 +116,16 @@
     row-gap: 25px;
   }
 }
+
+/*.newsCard__topic-box {
+}
+.newsCard__topic-box-wrapper {
+}
+.newsCard__hover-prompt {
+}
+.newsCard__article {
+}
+.newsCard__action-button_type_remove {
+}
+.newsCard__action-button_type_save {
+}*/

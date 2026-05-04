@@ -10,7 +10,6 @@ export default function SearchForm({ submit }) {
   const handleSubmit = (evt) => {
     evt.preventDefault();
     submit(value);
-    //console.log(value);
   };
 
   return (

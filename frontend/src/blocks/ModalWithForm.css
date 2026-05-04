@@ -41,8 +41,6 @@
   border-width: 0;
   border-color: black;
   border-style: solid;
-  /*height: 36px;
-  width: 60px;*/
   opacity: 100%;
   transition: opacity 0.5s;
   cursor: pointer;
@@ -50,7 +48,6 @@
   align-self: flex-start;
 }
 .modalWithForm__button_type_switch-forms {
-  /*margin-left: 20px;*/
   color: cornflowerblue;
 }
 .modalWithForm__form {
@@ -60,10 +57,12 @@
   row-gap: 15px;
   width: 90%;
 }
-.modalWithForm__form_type_sign-up {
+
+/*.modalWithForm__form_type_sign-up {
 }
 .modalWithForm__form_type_sign-in {
-}
+}*/
+
 .modalWithForm__submit-button-wrapper {
   display: flex;
   flex-direction: row;
@@ -109,5 +108,4 @@
   justify-self: baseline;
   justify-content: right;
   align-self: center;
-  /*padding-left: 10px;*/
 }

@@ -5,15 +5,10 @@ export default function ModalWithForm({
   isLoading,
   children,
   clickPass,
-  mouseDownPass,
 }) {
   return (
     <>
-      <div
-        className="modalWithForm__main modal__box"
-        onClick={clickPass}
-        //onMouseDown={mouseDownPass}
-      >
+      <div className="modalWithForm__main modal__box" onClick={clickPass}>
         <button
           className="modalWithForm__button modalWithForm__button_type_close"
           type="button"
@@ -29,7 +24,6 @@ export default function ModalWithForm({
           className={`modalWithForm__form modalWithForm_type_${content.name}`}
           onSubmit={content.submit}
           name={content.name}
-          //</div>onMouseDown={mouseDownPass}
         >
           <h2 className="modalWithForm__title">{content.title}</h2>
           {children}

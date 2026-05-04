@@ -17,7 +17,6 @@
 }
 
 .modal__box {
-  /*width: 436px;*/
   width: 430px;
   height: 380px;
   display: flex;
@@ -34,8 +33,6 @@
 }
 
 @media screen and (width < 440px) {
-  .modal {
-  }
   .modal__box {
     width: 90%;
   }

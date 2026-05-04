@@ -9,9 +9,7 @@ export default function Navigation({ isLoggedIn, viewingMain }) {
               ? "navigation__nav-link navigation__button_type_home navigation__nav-link__active"
               : "navigation__nav-link navigation__button_type_home"
           }
-          //className="navigation__nav-link navigation__button_type_home"
           to="/"
-          //style={viewingMain && { opacity: "1" }}
         >
           Home
         </NavLink>
@@ -22,9 +20,7 @@ export default function Navigation({ isLoggedIn, viewingMain }) {
                 ? "navigation__nav-link navigation__button_type_home navigation__nav-link__active"
                 : "navigation__nav-link navigation__button_type_home"
             }
-            //className="navigation__nav-link navigation__button_type_saved-articles"
             to="/saved-news"
-            //style={!viewingMain && { opacity: "1" }}
           >
             Saved articles
           </NavLink>

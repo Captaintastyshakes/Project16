@@ -53,12 +53,6 @@
   background-color: rgba(47, 113, 229, 1);
 }
 
-@media screen and (width < 945px) {
-  .searchForm__form {
-    /*width: 60%;*/
-  }
-}
-
 @media screen and (width < 805px) {
   .searchForm__form {
     flex-direction: column;
@@ -83,20 +77,3 @@
     column-gap: 10px;
   }
 }
-
-/*@media screen and (width < 440px) {
-  .searchForm__form {
-    flex-direction: column;
-    left: 0;
-    width: 25%;
-  }
-  .searchForm__input {
-    width: 100%;
-  }
-  .searchForm__input-label {
-    width: 168px;
-  }
-  .searchForm__submit-button {
-    right: 0;
-  }
-}*/

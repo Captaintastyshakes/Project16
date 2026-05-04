@@ -22,17 +22,10 @@ export default function NewsCard({
     url,
     urlToImage,
     publishedAt,
-    content,
     liked,
   } = data;
 
   const [hoverPromptState, setHoverPromptState] = React.useState(false);
-
-  const [isLiked, setIsLiked] = React.useState(false); //maybe keep using this at the component level just for frontend purposes
-
-  const handleLikeClick = () => {
-    isLiked ? setIsLiked(false) : setIsLiked(true);
-  };
 
   const monthMatrix = [
     "January",
@@ -62,36 +55,19 @@ export default function NewsCard({
 
   //logged in save function but not viewing saved
   const handleSaveButtonClick = () => {
-    //console.log("I'm still figuring this shit out. Here's a badge#: " + badge);
-    //console.log(viewingSavedNews);
-    //const returnData = {};
-    //console.log("Returning data: " + data);
-    //console.log(data);
-    //handleLikeClick();
-    //likeHandler(isLiked, data);
     likeHandler(data);
   };
-
-  const handleRemoveCard = () => {};
-
-  //React.useEffect(() => {}, [data]);
 
   return (
     <>
       <li className="newsCard__main">
-        {/*viewingSavedNews && (
-          <div className="newsCard__topic-box-wrapper">
-            <p className="newsCard__topic-box">topic</p>
-          </div>
-        )*/}
         {hoverPromptState && (
           <div className="newsCard__hover-prompt-wrapper">
             <p className="newsCard__hover-prompt">
               {viewingSavedNews
                 ? "Remove from saved"
                 : isLoggedIn
-                  ? // isLiked
-                    liked
+                  ? liked
                     ? "Added to saved"
                     : "Add to saved"
                   : "Sign in to save articles"}
@@ -104,7 +80,6 @@ export default function NewsCard({
             onMouseEnter={toggleHoverPromptState}
             onMouseLeave={toggleHoverPromptState}
             type="button"
-            //onClick={handleRemoveCard}//need to remove
             onClick={handleSaveButtonClick}
           >
             <img
@@ -129,17 +104,14 @@ export default function NewsCard({
                 ? handleSaveButtonClick
                 : () => {
                     console.log("You must log in to save articles!");
-                    //console.log(data);
                   }
-            } //will use this, using checkless version for now- mind you I could probably make the check happen in the function...
-            //onClick={handleSaveButtonClick}
+            }
             type="button"
           >
             <img
               className="newsCard__icon"
               alt="save-icon"
               src={
-                //isLiked
                 liked
                   ? bookmarkActive
                   : hoverPromptState

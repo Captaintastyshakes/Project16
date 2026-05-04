@@ -1,7 +1,5 @@
 .savedNews__main {
-  /*max-width: 25%;*/
   width: 100%;
-  /*padding-left: 10px;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

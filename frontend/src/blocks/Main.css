@@ -8,10 +8,11 @@
 }
 
 .main__title {
+  font-family: "Roboto SlabB";
 }
-
+/*
 .main__descriptor {
-}
+}*/
 
 .main__content-wrapper {
   width: 100%;
@@ -36,6 +37,7 @@
 }
 
 .main__titles-wrapper {
+  /*font-family: "Roboto SlabB";*/
   color: white;
   text-align: center;
 }
