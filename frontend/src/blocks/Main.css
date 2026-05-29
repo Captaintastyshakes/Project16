@@ -1,3 +1,4 @@
+/*marking for pull request analysis*/
 .main__main {
   display: flex;
   flex-direction: column;
@@ -10,10 +11,6 @@
 .main__title {
   font-family: "Roboto SlabB";
 }
-/*
-.main__descriptor {
-}*/
-
 .main__content-wrapper {
   width: 100%;
   max-width: 100%;
@@ -37,7 +34,6 @@
 }
 
 .main__titles-wrapper {
-  /*font-family: "Roboto SlabB";*/
   color: white;
   text-align: center;
 }

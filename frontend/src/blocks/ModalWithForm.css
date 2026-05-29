@@ -1,6 +1,6 @@
+/*marking for pull request analysis*/
 .modalWithForm__main {
   display: flex;
-  flex-direction: row;
   row-gap: 10px;
 }
 
@@ -57,11 +57,6 @@
   row-gap: 15px;
   width: 90%;
 }
-
-/*.modalWithForm__form_type_sign-up {
-}
-.modalWithForm__form_type_sign-in {
-}*/
 
 .modalWithForm__submit-button-wrapper {
   display: flex;

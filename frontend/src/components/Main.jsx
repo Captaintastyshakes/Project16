@@ -1,3 +1,4 @@
+//marking for pull request analysis
 import SearchForm from "./SearchForm.jsx";
 import About from "./About.jsx";
 import NewsCardList from "./NewsCardList.jsx";
@@ -18,7 +19,7 @@ export default function Main({
         <div className="main__sub-wrapper">
           {children}
           <div className="main__titles-wrapper">
-            <h1 className="main__title">What's going on in the world?</h1>
+            <h1 className="main__title">What is going on in the world?</h1>
             <p className="main__descriptor">
               Find the latest news on any topic and save them in your personal
               account.

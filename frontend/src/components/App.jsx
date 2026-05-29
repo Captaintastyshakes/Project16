@@ -1,5 +1,6 @@
+//marking for pull request analysis
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "../blocks/App.css";
 import Header from "../components/Header.jsx";
 import Main from "../components/Main.jsx";
@@ -8,8 +9,8 @@ import Footer from "../components/Footer.jsx";
 import LoginModal from "../components/LoginModal.jsx";
 import RouteProtector from "./RouteProtector.jsx";
 import NewsApi from "../utils/NewsApi.js";
-import DbApi from "../utils/DbApi.js";
-import { apiKey, apiUrl, dbUrl } from "../utils/constants.js";
+//import DbApi from "../utils/DbApi.js"; //marked for future use
+import { apiKey, apiUrl /*dbUrl*/ } from "../utils/constants.js";
 
 export default function App() {
   //hooks
@@ -26,7 +27,7 @@ export default function App() {
   //initializations
 
   const newsCaller = new NewsApi(apiUrl, apiKey);
-  const userApi = new DbApi(dbUrl); //to be used in the future
+  //const userApi = new DbApi(dbUrl); //to be used in the future
 
   //functions
 

@@ -1,3 +1,4 @@
+//marking for pull request analysis
 import React from "react";
 import bookmarkDefault from "../assets/bookmark_1.svg";
 import bookmarkHover from "../assets/bookmark2.svg";
@@ -7,7 +8,7 @@ export default function NewsCard({
   data,
   isLoggedIn,
   viewingSavedNews,
-  badge,
+  //badge,
   likeHandler,
 }) {
   const toggleHoverPromptState = () => {
@@ -16,7 +17,7 @@ export default function NewsCard({
 
   const {
     source,
-    author,
+    //author,
     title,
     description,
     url,

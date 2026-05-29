@@ -1,3 +1,4 @@
+/*marking for pull request analysis*/
 .newsCard__main {
   height: 576px;
   width: 400px;
@@ -116,16 +117,3 @@
     row-gap: 25px;
   }
 }
-
-/*.newsCard__topic-box {
-}
-.newsCard__topic-box-wrapper {
-}
-.newsCard__hover-prompt {
-}
-.newsCard__article {
-}
-.newsCard__action-button_type_remove {
-}
-.newsCard__action-button_type_save {
-}*/

@@ -13,6 +13,7 @@ dist-ssr
 *.local
 
 # Editor directories and files
+# a lot of my work on the project was looking back at older work for project 15 so I needed to account for ignoring it.
 .vscode/*
 !.vscode/extensions.json
 .idea

@@ -1,4 +1,5 @@
-export default function PreLoader({}) {
+//marking for pull request analysis
+export default function PreLoader() {
   return (
     <>
       <div className="preLoader__wrapper">

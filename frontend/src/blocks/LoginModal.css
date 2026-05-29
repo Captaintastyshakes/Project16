@@ -1,3 +1,4 @@
+/*marking for pull request analysis*/
 .loginModal__main {
   justify-items: center;
 }
@@ -15,12 +16,3 @@
   border-bottom-width: 1px;
   color: black;
 }
-
-/*.loginModal__input_type_email {
-}
-.loginModal__input_type_password {
-}
-.loginModal__form-label_type_email {
-}
-.loginModal__form-label_type_password {
-}*/

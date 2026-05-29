@@ -1,3 +1,4 @@
+//marking for pull request analysis
 import { NavLink } from "react-router-dom";
 export default function Navigation({ isLoggedIn, viewingMain }) {
   return (

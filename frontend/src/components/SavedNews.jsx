@@ -1,3 +1,4 @@
+//marking for pull request analysis
 import NewsCardList from "./NewsCardList.jsx";
 import React from "react";
 

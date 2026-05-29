@@ -1,3 +1,4 @@
+/*marking for pull request analysis*/
 .footer__main {
   width: 100%;
   display: flex;
@@ -21,10 +22,3 @@
 .footer__nav-link:hover {
   opacity: 0.6;
 }
-
-/*.footer__nav-link_type_external {
-}
-.footer__nav-link_type_home {
-}
-.footer__icon {
-}*/

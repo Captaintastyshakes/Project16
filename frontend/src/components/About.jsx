@@ -1,6 +1,7 @@
-import portrait from "../assets/IMG_3983.jpg";
+//marking for pull request analysis/
+import portrait from "../assets/IMG_3983.jpg"; //I am well aware how goofy the photo is but it was all I had at the time and frankly it grew on me.
 
-export default function About({}) {
+export default function About() {
   return (
     <>
       <div className="about__main">
@@ -19,8 +20,8 @@ export default function About({}) {
             <p className="about__text-content">
               My experience with Tripleten has equipped me to navigate the
               perils of modern web development and potentially help my customers
-              wade through their respective challenges too- I'm right in it with
-              you!
+              wade through their respective challenges too- I am right in it
+              with you!
             </p>
           </div>
         </div>
